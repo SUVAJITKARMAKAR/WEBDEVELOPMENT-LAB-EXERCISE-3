@@ -1,0 +1,125 @@
+/* CSS-RESET-SECTION  */
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* FIRST-PAGE-STYLE-SECTION  */
+#first-page {
+    width: 100vw;
+    min-height: 100vh;
+
+    background-color: cornflowerblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#first-page h1 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+
+    color: black;
+
+    letter-spacing: 20px;
+
+    cursor: pointer;
+
+    transition: letter-spacing 0.5s ease;
+
+}
+
+/* GEOLOCATION-STYLE-SECTION  */
+
+#geolocation-page {
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    background-color: grey;;
+
+}
+
+#geolocation-page #maps {
+    width: 60%;
+    height: 500px;
+    
+}
+
+/* SECOND-PAGE-STYLE-SECTION  */
+#second-page {
+    width: 100vw;
+    min-height: 100vh;
+
+    background-color: brown;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#second-page h1 {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+
+    color: black;
+
+    letter-spacing: 20px;
+
+    cursor: pointer;
+
+    transition: letter-spacing 0.5s ease;
+}
+
+/* SVG-SECTION-STYLE  */
+#svg-page {
+
+    width: 100vw;
+    min-height: 30vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+/* CSS-ARROW-STYLE-SECTION  */
+#arrow a {
+    text-decoration: none;
+}
+
+#arrow i {
+    color: black;
+    scale: 1.5;
+
+    margin-top: 250px;
+
+    transition: scale 0.5s ease;
+}
+
+/* CSS-HOVER-SECTION  */
+#first-page h1:hover , #second-page h1:hover {
+    letter-spacing: 0px;
+}
+
+#arrow  i:hover {
+    scale: 3;
+    cursor: pointer;
+}
